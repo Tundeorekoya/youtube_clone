@@ -4,7 +4,7 @@ import { Nav, Feed, ChannelDetail, SearchFeed, VideoDetail} from "./component"
 const App = () =>
 (
   <BrowserRouter>
-    <Box sx={{ backgroundColor: "#030637"}}>
+    <Box sx={{ backgroundColor: "#000"}}>
     <Nav/>
       <Routes>
         <Route path="/" exact element={<Feed />} />

@@ -9,7 +9,7 @@ const searchbar = () => {
       onSubmit={() => { }}
       sx={{ borderRadius: 20, pl: 2, border: "1px solid #e3e3e3 " }}
     >
-      <input type="text" className="search-bar" placeholder="Search...." value="" onChange={() => { }} />
+      <input type="text" className="search-bar" placeholder="Search...." onChange={() => { }} />
       <IconButton type="submit" sx={{ color: "red", p: 1 }}>
         <SearchIcon />
       </IconButton>

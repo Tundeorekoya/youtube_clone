@@ -5,7 +5,7 @@ import Searchbar from "./searchBar"
 
 
 const nav = () => (
-  <Stack direction="row" alignItems="center" p={2} sx={{ justifyContent: "space-between", background: "#000", position:"sticky", top: 0  }}>
+  <Stack direction="row" alignItems="center" p={2} sx={{ justifyContent: "space-between", background: "#000", position:"sticky", top: 0 , zIndex: 1 }}>
     <Link
       to="/"
       style={{ display: "flex", alignItems: "center" }}
